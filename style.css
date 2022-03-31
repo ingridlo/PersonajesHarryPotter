@@ -1,0 +1,45 @@
+#boton1{
+    background-color: #f1d693;
+}
+body{  
+    background: url("https://mondibal.com/wp-content/uploads/2020/08/founder.jpg");
+    background-repeat: no-repeat;
+    z-index: -1;
+    min-height: 100%;
+    min-width: 100%;
+    position: fixed;
+    background-position-x: center;
+
+    
+}
+
+#tarjeta{         
+    padding-inline-start: 0;
+    background-color: #f1d693 ;
+    width: 300px;
+    height: 450px;
+    border-radius: 5%;
+    padding: 20px 40px 20px 40px;
+    border: black solid 1px;
+}
+
+#tarjeta > h2{
+    margin-bottom: 0px;
+    color: black;
+
+}
+
+#tarjeta > .imagen {
+    width: 200px;
+    height: 200px;   
+    border-radius: 30%;   
+}
+
+#tarjeta > .escudo{
+
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
